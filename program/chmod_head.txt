@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My Message</title>
+    <link rel="stylesheet" href="css/reset1.css"/>
+    <link rel="stylesheet" href="css/homeHead.css"/>
+    <link rel="stylesheet" href="css/homePublic.css"/>
+    <link rel="stylesheet" href="css/chmod.css"/>
+    <script src="../js/alert_delete.js"></script>
+</head>
+<div  style = "margin-bottom: 80px; margin-top: 60px" class="ret">
+    <body>
+        <div class="homeCen">
+            <div class="homeCen_left">
+                <ul>
+                    <li class="off"><a href="/adminPage">HomePage</a></li>
+                    <li class="off"><a href="/password">Settings</a></li>
+                    <li><a href="mywrite">Posts</a></li>
+                    <li><a href="/mymsg">Messages</a></li>
+                    <li class="on"><a href="/chmod">Modify rules</a></li>
+                </ul>
+            </div>
+            <div class="homeCen_right">
+                <form action="/chmod" method="POST">
+                <div class="baseHead">
+                    <button class="topButton">User List</button>
+                </div>
+                <div style="width: 870px;overflow:scroll;overflow-x: hidden;" class="myWrite_con">

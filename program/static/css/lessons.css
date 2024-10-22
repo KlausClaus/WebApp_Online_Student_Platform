@@ -1,0 +1,52 @@
+.tit{
+    text-align:center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    border-bottom: 10px #333 double;
+    border-bottom-style: dashed;
+    margin-bottom: 20px;
+}
+.parts{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left: 10px green dotted;
+    border-right: 10px red dotted;
+    border-top: 10px blue double;
+    border-bottom: 10px orange double;
+    margin-bottom: 20px;
+}
+.list li{
+    
+    list-style-type:none;
+    height: 5px;
+    margin-bottom: 75px;
+    margin-left: 20px;
+    font-size:25px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.list ul{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: white;
+    margin:5px,5px,10px,5px;
+}
+.ptitle{
+    text-align:center;
+    color: rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: aqua;
+    color:green
+}
+a:visited {
+    color: red;
+}

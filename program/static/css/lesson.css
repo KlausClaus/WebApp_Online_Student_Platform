@@ -1,0 +1,74 @@
+.tit{
+    text-align:left;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+
+}
+.box{
+    margin: 50px;
+    
+    border: #333;
+}
+.lesson{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #999;
+    float: right;
+    background-color: #fff;
+    margin: 20px;
+}
+.lesson p{
+    font-size: 20px;
+    
+}
+.lesson li{
+    font-size: 20px;
+}
+.block1{
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 320px
+}
+.block2{
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 260px
+}
+.block3{
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 160px
+}
+.block4{
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+    height: 160px
+}
+button{
+    background-color: #333;
+    border-radius: 4px;
+    color: white;
+    padding:10px 15px;
+    margin: 20px;
+    width: 100px;
+}
+button:hover {
+    background-color: #e43e20;
+    color: white;
+    
+}
+
+#fixed{
+    position: fixed;
+    background: linear-gradient(to bottom, #e43e20 0%,#e43e20 100%);
+    bottom: 200px;
+    right: -25px;
+}
+
+#bottom-button{
+    bottom: 60px;
+}

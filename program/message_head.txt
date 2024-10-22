@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Message Content</title>
+    <link rel="stylesheet" href="css/myMsg.css"/>
+
+    <link rel="stylesheet" href="css/reset1.css"/>
+    <link rel="stylesheet" href="css/homeHead.css"/>
+    <link rel="stylesheet" href="css/homePublic.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+
+    <style>
+
+        body{
+            font-size: 14px;
+        }
+        .context{
+            margin: 10px auto ;
+            width: 800px;
+
+        }
+        .context ul{
+            padding: 10px;
+        }
+        .context li{
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        .context li span{
+            position: relative;
+            border-radius: 7px;
+            background-color: Red;
+            padding: 6px 10px 8px 10px;
+            z-index: 1;
+        }
+        .context .textLeft span{
+            background-color: Orange;
+        }
+        .context li.textLeft:before{
+
+            box-sizing: border-box;
+            position: relative;
+            left: -10px;
+            top: 9px;
+        }
+        .context li.textLeft span:before{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-right: 8px solid white;
+            position: absolute;
+            top: 8px;
+            left: -16px;
+        }
+        .context li.textRight:after{
+
+            box-sizing: border-box;
+            position: relative;
+            right: -10px;
+            top: 9px;
+        }
+        .context li.textRight span:after{
+            content: "";
+            display: block;
+            width: 0;
+            height: 0;
+            border: 8px solid transparent;
+            border-left: 8px solid #a6e860;
+            position: absolute;
+            top: 8px;
+            right: -16px;
+        }
+
+        .textRight{
+            text-align: right;
+        }
+
+        .talk_con{
+            width:600px;
+            height:510px;
+            border:1px solid #666;
+            margin:50px auto 0;
+            background:#f9f9f9;
+        }
+        .talk_show{
+            width:580px;
+            height:420px;
+            border:1px solid #666;
+            background:#fff;
+            margin:10px auto 0;
+            overflow:auto;
+        }
+        .talk_input{
+            width:580px;
+            margin:10px auto 0;
+        }
+        .whotalk{
+            width:80px;
+            height:30px;
+            float:left;
+            outline:none;
+        }
+        .talk_word{
+            width:420px;
+            height:26px;
+            padding:0px;
+            float:left;
+            margin-left:10px;
+            outline:none;
+            text-indent:10px;
+        }
+        .talk_sub{
+            width:56px;
+            height:30px;
+            float:left;
+            margin-left:10px;
+        }
+        .atalk{
+            margin:10px;
+        }
+        .atalk span{
+            display:inline-block;
+            background:#0181cc;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+        .btalk{
+            margin:10px;
+            text-align:right;
+        }
+        .btalk span{
+            display:inline-block;
+            background:#ef8201;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+
+    </style>
+</head>
+<div style = "margin-bottom: 80px; margin-top: 60px" class="ret">
+    <body>
+
+    <div class="homeCen">
+        <div class="homeCen_left">
+            <ul>
+                <li><a href="/myhome">HomePage</a></li>
+                <li><a href="/password">Settings</a></li>
+                <li><a href="/mywrite">  Posts</a></li>
+                <li class="on"><a href="/mymsg">Friend List</a></li>
+
+            </ul>
+        </div>
+
+        <div class="homeCen_right">
+            <div class="baseHead">
+                <ul>
+                    <li><a href="/mymsg" class="on">My Friends</a></li>
+                    <li><a href="/writeMsg">Add Friend</a></li>
+                </ul>
+            </div>
+
+            <div class="context">
+                <p>Message Content</p>
+
+                <div class="talk_con" style = "margin-top: 10px">
+                    <div class="talk_show" id="words">
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My posts</title>
+    <link rel="stylesheet" href="css/reset1.css"/>
+    <link rel="stylesheet" href="css/homeHead.css"/>
+    <link rel="stylesheet" href="css/homePublic.css"/>
+    <link rel="stylesheet" href="css/myWrite1.css"/>
+</head>
+<div style = "margin-bottom: 80px; margin-top: 60px" class="ret">
+    <body>
+        <div class="homeCen">
+            <div class="homeCen_left">
+                <ul>
+                    <li><a href="/myhome">HomePage</a></li>
+                    <li><a href="/password">Settings</a></li>
+                    <li class="on"><a href="/mywrite">Posts</a></li>
+                    <li><a href="/mymsg">Messages</a></li>
+                    <li class="off"><a href="/chmod">Modify rules</a></li>
+                </ul>
+            </div>
+            <div class="homeCen_right">
+                <div class="baseHead">
+                    <ul>
+                        <li><a href="/mywrite" class="on">My Posts</a></li>
+                    </ul>
+                </div>
+                <div class="myWrite_con" style="width: 870px;overflow:scroll;overflow-x: hidden;">
+                    <div class="writeHead">
+                        <div class="writeHead1">Post Title</div>
+                        <div class="writeHead3">Category</div>
+                    </div>
+                    <form action="/mywrite" method="POST">

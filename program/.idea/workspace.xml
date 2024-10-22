@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6474e839-8ea6-459c-b2a9-13a679146ca0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Message.db" beforeDir="false" afterPath="$PROJECT_DIR$/Message.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post_content.db" beforeDir="false" afterPath="$PROJECT_DIR$/post_content.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin_chmod.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin_chmod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/message_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/message_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myMsg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myMsg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myWrite.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myWrite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tiezi.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tiezi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/username_psw.db" beforeDir="false" afterPath="$PROJECT_DIR$/username_psw.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1q8uglovurA23ddJfdWyi2AgA5i" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6474e839-8ea6-459c-b2a9-13a679146ca0" name="Default Changelist" comment="" />
+      <created>1616473652035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616473652035</updated>
+      <workItem from="1617950831186" duration="7000" />
+      <workItem from="1617950841690" duration="8000" />
+      <workItem from="1638615977198" duration="359000" />
+      <workItem from="1648907245312" duration="122000" />
+      <workItem from="1648907393441" duration="84000" />
+      <workItem from="1649691007047" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* body {font-family: Arial, Helvetica, sans-serif;} */
+    form {border: 3px solid Red;}
+
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid Blue;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: Green;
+      color: yellow;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.7;
+    }
+
+
+    .back_button {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #000000;
+    }
+
+    .container {
+      padding: 14px;
+    }
+
+    img {
+      max-width: 30%;
+      max-height: 30%;
+    }
+
+    .sign_in {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+<style>
+  .word{text-align:center
+  }
+</style>
+<script src="../js/alert_login.js"></script>
+<div class="word" >
+  <h2>Welcome to our website!</h2>
+</div>
+
+<p style="text-align:center">
+  <img src="img/HelloWorld.jpeg" alt="Some stuff that popped out of tensor flow" height=auto>
+</p>
+
+<form action="/login" method="post">
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="user_name" id="user_name" autocomplete="off" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" autocomplete="off" required>
+
+    <button type="submit">Login</button>
+  </div>
+
+  <div class="container">
+    <p>Doesn't have an account? <a href="/register">Sign up</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
+

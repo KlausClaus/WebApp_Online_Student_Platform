@@ -1,0 +1,14 @@
+    </div>
+    <div class="indexMain_right">
+        <a href="/write" class="newMsg">New Post</a>
+    </div>
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/tiezi.js"></script>
+<script>
+
+</script>

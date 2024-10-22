@@ -1,0 +1,11 @@
+
+                </div>
+                <div>
+                    <input type="submit" name = "Add" value = "" class="addButton" title="Add a person" autocomplete="off"></input>
+                </div>
+                </form>
+            </div>
+        </div>
+        </body>
+</div>
+</html>

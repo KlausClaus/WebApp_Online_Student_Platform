@@ -1,0 +1,22 @@
+
+                    </div>
+                    <form action="/message_content" method="post">
+                        <div class="talk_input">
+                            <input type="text" class="talk_word" placeholder="Verify The Username You are Sending to:" autocomplete="off" name="Target" id="Target" required>
+
+                            <input type="text" class="talk_word" id="content" name="content">
+                            <input type="submit" value="Send" class="talk_sub" id="talksub" autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    </body>
+</div>
+
+</html>

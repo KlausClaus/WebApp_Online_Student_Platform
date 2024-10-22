@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/lesson.css">
+    <title>Lesson 1</title>
+</head>
+<body>
+    <div class="lesson">
+    <div class="box">
+        <div class="tit">
+            <h1>Lesson 6: Hello World using Bottle Route</h1>
+        </div>
+    <p>For this lesson, we will learn how to create a simple “Hello World” program using Bottle. Type the code provided below into your text editor, and run the program. A web page saying “Hello World!” should be displayed.
+    </p>
+    <p><img src="img/lesson6_1.PNG"  height="80%"></p>
+    <p>The route() decorator binds a piece of code to an URL path. In this case, we link the /hello path to the hello() function. This is called a route (hence the decorator name) and is the most important concept of this framework. You can define as many routes as you want. Whenever a browser requests a URL, the associated function is called and the return value is sent back to the browser. It’s as simple as that.</p>
+    <p>The run() call in the last line starts a built-in development server. It runs on localhost port 8080 and serves requests until you hit Control-c. You can switch the server backend later, but for now a development server is all we need. It requires no setup at all and is an incredibly painless way to get your application up and running for local tests.</p>
+    <p>This is just a demonstration of the basic concept of how applications are built with Bottle.</p>
+    <small>Source: Hellkamp, M 2021, <i>Bottle Tutorial, Bottle: Python Web Framework</i>, accessed 8 April 2021, https://bottlepy.org/docs/dev/tutorial.html#dynamic-routes.</small>
+    <div id="bottom-button">
+        <button style="margin-left: 38%;" onclick="window.location.href='/lesson_5'">Previous</button>
+        <button onclick="window.location.href='/lessons'">Catalogue</button>
+        <button onclick="window.location.href='/lesson_7'">Next</button>
+    </div>
+    </div>
+    
+    <button onclick="window.location.href='https://codepen.io/pen/'" id ="fixed">Practice</button> 
+    </div>
+</body>

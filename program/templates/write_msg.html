@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My Message</title>
+
+
+    <link rel="stylesheet" href="css/reset1.css"/>
+    <link rel="stylesheet" href="css/homeHead.css"/>
+    <link rel="stylesheet" href="css/homePublic.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/write.css"/>
+</head>
+<div style = "margin-bottom: 80px; margin-top: 60px" class="ret">
+    <body>
+    <div class="homeCen">
+        <div class="homeCen_left">
+            <ul>
+                <li><a href="/myhome">HomePage</a></li>
+                <li><a href="/password">Settings</a></li>
+                <li><a href="/mywrite">Posts</a></li>
+                <li class="on"><a href="/mymsg">Messages</a></li>
+
+            </ul>
+        </div>
+
+        <div class="homeCen_right">
+            <div class="baseHead">
+                <ul>
+                    <li><a href="/mymsg">My Friends</a></li>
+                    <li><a href="/writeMsg" class="on">Add Friend</a></li>
+                </ul>
+            </div>
+            <form action="/writeMsg" method="post">
+                <div class="BBCon" style="height: 135px">
+
+                    <div class="BBCon_cen">
+                        <div class="writeMsg">
+                            <input type="text" placeholder="You Want to add : (Input Username)" autocomplete="off" name="Target" id="Target" required>
+                        </div>
+                        <!--                            <textarea class="form-control" rows="30" cols = "92" name="content"></textarea>-->
+                        <input type="submit" class="reform" autocomplete="off" value="Post"/>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    </body>
+</div>
+
+</html>

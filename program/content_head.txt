@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Post Content</title>
+    <link rel="stylesheet" href="css/reset1.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="../js/alert_comment_empty.js"></script>
+</head>
+<body>
+
+<div class="indexMain">
+    <div class="indexMain_left">

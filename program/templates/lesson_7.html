@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/lesson.css">
+    <title>Lesson 1</title>
+</head>
+<body>
+    <div class="lesson">
+    <div class="box">
+        <div class="tit">
+            <h1>Lesson 7: Build a Register Form</h1>
+        </div>
+        <p>User authentication is very common in modern web applications. It is a security mechanism that is used to restrict unauthorized access to member-only areas and tools on a site.In this lesson we'll create a simple registration form PHP and MySQL.</p>
+        <h3>Step-by-Step Guide</h3>
+        <p>In this step-by-step guide, we'll build a registration system that allows users to create a new account by filling out a web form. But, first we need to create a table that will hold all the user data.</p>
+        <h3>Step 1: Creating the Database Table</h3>
+        <p>Execute the following SQL query to create the users table inside your MySQL database.</p>
+        <p><img src="img/lesson7_1.PNG"  height="80%"></p>
+        <p><b>Step 2:</b> After creating the table, we need to create a PHP script in order to connect to the MySQL database server. Let's create a file named "config.php" and put the following code inside it.</p>
+        <p><img src="img/lesson7_2.PNG"  height="80%"></p>
+        <h3>Step 3: Creating the Registration Form</h3>
+        <p>Let's create another PHP file "register.php" and put the following example code in it. This example code will create a web form that allows users to register themselves.</p>
+        <p>This script will also generate errors if a user tries to submit the form without entering any value, or if the username entered by the user is already taken by another user.</p>
+        <p><img src="img/lesson7_3.PNG"  height="80%"></p>
+        <p>The output of the above example (i.e. signup form) will look something like this:</p>
+        <p><img src="img/lesson7_4.PNG"  height="80%"></p>
+        <p>In the above example, we've used the PHP password_hash() function to create password hash from the password string entered by the user (line no-75). This function creates a password hash using a strong one-way hashing algorithm. It also generates and applies a random salt automatically when hashing the password; this means that even if two users have the same passwords, their password hashes will be different.</p>
+        <p>At the time of login we'll verify the given password with the password hash stored in the database using the PHP password_verify() function.</p>
+        <small>Source: Tutorial Republic n.d., <i>PHP MySQL Login System</i>, accessed 30 March,  https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php.</small>
+        <div id="bottom-button">
+            <button style="margin-left: 38%;" onclick="window.location.href='/lesson_6'">Previous</button>
+            <button onclick="window.location.href='/lessons'">Catalogue</button>
+            <button onclick="window.location.href='/lesson_8'">Next</button>
+        </div>
+    </div>
+        
+        <button onclick="window.location.href='https://codepen.io/pen/'" id ="fixed">Practice</button> 
+    </div>
+</body>

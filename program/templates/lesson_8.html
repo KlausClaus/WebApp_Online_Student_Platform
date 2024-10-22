@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/lesson.css">
+    <title>Lesson 1</title>
+</head>
+<body>
+    <div class="lesson">
+    <div class="box">
+        <div class="tit">
+            <h1>Lesson 8: Build a Login Form</h1>
+        </div>
+        <p>In this lesson we'll create a login form where users can enter their username and password. When users submit the form these inputs will be verified against the credentials stored in the database, if the username and password match, the user is authorized and granted access to the site, otherwise the login attempt will be rejected.</p>
+        <h3>Step 1: Creating the Login Form</h3>
+        <p>Let's create a file named "login.php" and place the following code inside it.</p>
+        <p><img src="img/lesson8_1.PNG"  height="80%"></p>
+        <p>The output of the above example (i.e. login form) will look something like this:</p>
+        <p><img src="img/lesson8_2.PNG"  height="80%"></p>
+        <h3>Step 2: Creating the Welcome Page</h3>
+        <p>Here's the code of our "welcome.php" file, where the user is redirected after successful login.</p>
+        <p><img src="img/lesson8_3.PNG"  height="80%"></p>
+        <p>If data comes from external sources like form filled in by anonymous users, there is a risk that it may contain malicious script intended to launch cross-site scripting (XSS) attacks. Therefore, you must escape this data using the PHP htmlspecialchars() function before displaying it in the browser, so that any HTML tag it contains becomes harmless.</p>
+        <p>For example, after escaping special characters the string &lt;script&gt;alert("XSS")&lt;/script&gt; becomes &lt;script&gt;alert("XSS")&lt;/script&gt; which is not executed by the browser.</p>
+        <h3>Step 3: Creating the Logout Script</h3>
+        <p>Now, let's create a "logout.php" file. When the user clicks on the log out or sign out link, the script inside this file destroys the session and redirects the user back to the login page.</p>
+        <p><img src="img/lesson8_4.PNG"  height="80%"></p>
+        <small>Source: Tutorial Republic n.d., <i>PHP MySQL Login System</i>, accessed 30 March,  https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php.</small>
+        <div id="bottom-button">
+            <button style="margin-left: 38%;" onclick="window.location.href='/lesson_7'">Previous</button>
+            <button onclick="window.location.href='/lessons'">Catalogue</button>
+        </div>
+    </div>
+        
+        <button onclick="window.location.href='https://codepen.io/pen/'" id ="fixed">Practice</button> 
+    </div>
+</body>
